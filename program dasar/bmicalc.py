@@ -22,4 +22,4 @@ bmis = calculate_bmi(weights, heights)
 categories = np.array([bmi_category(bmi) for bmi in bmis])
 
 for i in range(len(weights)):
-    print("Person", i+1, ":", "BMI:", bmis[i], ",", "Category:", categories[i])
+    print("Person", i+1, "=", "BMI:", bmis[i], ",", "Category:", categories[i])
